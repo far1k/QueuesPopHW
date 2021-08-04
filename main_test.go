@@ -5,62 +5,6 @@ import (
 	"testing"
 )
 
-/*
-func TestLinkList_AddHead(t *testing.T) {
-	type fields struct {
-		head   *Node
-		tail   *Node
-		length int
-	}
-	type args struct {
-		Node *Node
-	}
-	tests := []struct {
-		name   string
-		fields fields
-		args   args
-	}{
-		// TODO: Add test cases.
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			L := &LinkList{
-				head:   tt.fields.head,
-				tail:   tt.fields.tail,
-				length: tt.fields.length,
-			}
-		})
-	}
-}
-
-func TestLinkList_AddTail(t *testing.T) {
-	type fields struct {
-		head   *Node
-		tail   *Node
-		length int
-	}
-	type args struct {
-		Node *Node
-	}
-	tests := []struct {
-		name   string
-		fields fields
-		args   args
-	}{
-		// TODO: Add test cases.
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			L := &LinkList{
-				head:   tt.fields.head,
-				tail:   tt.fields.tail,
-				length: tt.fields.length,
-			}
-		})
-	}
-}
-*/
-
 func TestLinkList_PopHead(t *testing.T) {
 	NodeTest1 := Node{
 		Name:     "Pervyy",
